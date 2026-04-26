@@ -1,0 +1,34 @@
+:root {
+  --base-color: #000;
+  --border: dashed 1px rgba(0, 0, 0, 1);
+  --selection-background: rgba(0, 0, 0, 0.99);
+  --selection-text: #fff;
+  --background-color: #fff;
+  --text-color: var(--base-color);
+  --placeholder-color: var(--base-color);
+  --link-color: var(--base-color);
+}
+
+[data-theme="dark"] {
+  --base-color: #dbdbdb;
+  --border: dashed 1px rgba(219, 219, 219, 0.9);
+  --selection-background: rgba(219, 219, 219, 0.99);
+  --selection-text: #000;
+  --background-color: #000;
+}
+
+[data-theme="hacker"] {
+  --base-color: #00ff00;
+  --border: dashed 1px rgba(0, 255, 0, 0.9);
+  --selection-background: rgba(0, 255, 0, 0.99);
+  --selection-text: #000;
+  --background-color: #000;
+}
+
+[data-theme="nord"] {
+  --base-color: #d8dee9;
+  --border: dashed 1px var(--base-color);
+  --selection-background: #e5e9f0;
+  --selection-text: #434c5e;
+  --background-color: #2e3440;
+}

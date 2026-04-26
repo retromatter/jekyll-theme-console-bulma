@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}" data-theme="light">
+
+  {%- include head.html -%}
+
+  <body>
+    <div class="container">
+
+      {%- include header.html -%}
+
+      <main>
+        {{ content }}
+      </main>
+
+      {%- include footer.html -%}
+
+    </div>
+    <script src="{{ '/assets/js/theme-switcher.js' | relative_url }}"></script>
+  </body>
+
+</html>

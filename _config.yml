@@ -1,0 +1,19 @@
+title: jekyll-theme-console-bulma
+description: "Terminal-inspired Jekyll theme. Bulma-powered, retro-styled, hacker-approved."
+baseurl: ""
+url: ""
+
+# Build settings
+theme: jekyll-theme-console-bulma
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - jekyll-theme-console-bulma.gemspec
+  - theme_version.rb
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.txt
+  - CODE_OF_CONDUCT.md
+  - README.md

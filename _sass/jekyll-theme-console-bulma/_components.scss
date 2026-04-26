@@ -1,0 +1,99 @@
+hr {
+  background-color: transparent;
+  border-top: var(--border);
+  height: 0;
+  margin: 2rem 0;
+}
+
+.box, .card, .menu {
+  background-color: transparent;
+  border: var(--border);
+  box-shadow: none;
+  border-radius: 0;
+  color: var(--text-color);
+}
+
+.box a:hover, .card a:hover {
+  background-color: var(--base-color);
+  color: var(--background-color);
+}
+
+.select select {
+  background-color: var(--background-color);
+  border: var(--border);
+  color: var(--text-color);
+  font-family: inherit;
+  border-radius: 0;
+}
+
+.select select:focus,
+.select select:active {
+  border-color: var(--text-color);
+  box-shadow: none;
+}
+
+.select:not(.is-multiple):not(.is-loading)::after {
+  border-color: var(--text-color);
+}
+
+.select select option {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+pre {
+  background-color: var(--background-color);
+  border: var(--border);
+  color: var(--text-color);
+  border-radius: 0;
+}
+
+code {
+  background-color: var(--selection-background);
+  color: var(--selection-text);
+  border-radius: 0;
+}
+
+.site-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-decoration: none !important;
+}
+
+.site-title:hover {
+  background-color: transparent !important;
+  color: var(--text-color) !important;
+}
+
+.content ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.content ul li::before {
+  content: "- ";
+}
+
+.post-list {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.post-list li {
+  border: var(--border);
+  padding: 0.75rem;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.post-list li::before {
+  content: none;
+}
+
+.title strong,
+.subtitle strong,
+.content strong {
+  color: inherit;
+}

@@ -1,0 +1,41 @@
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Source Code Pro", "Courier New", Courier, monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, .title, .subtitle {
+  color: var(--text-color);
+  font-family: inherit;
+  font-weight: bold;
+}
+
+strong {
+  color: var(--text-color);
+}
+
+a, .navbar-item, .breadcrumb a {
+  color: var(--link-color);
+  text-decoration: underline;
+  transition: none;
+}
+
+a:hover, .navbar-item:hover, .breadcrumb a:hover {
+  background-color: var(--base-color);
+  color: var(--background-color);
+  text-decoration: none;
+}
+
+::selection {
+  background: var(--selection-background);
+  color: var(--selection-text);
+}
+
+::-moz-selection {
+  background: var(--selection-background);
+  color: var(--selection-text);
+}

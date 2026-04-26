@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{%- if site.posts.size > 0 -%}
+  <hr>
+  <section class="section px-0 py-5">
+    <h2 class="title is-4 mb-5">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        <span class="is-size-7">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </section>
+{%- endif -%}
