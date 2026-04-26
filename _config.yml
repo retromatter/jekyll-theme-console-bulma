@@ -1,10 +1,9 @@
 title: jekyll-theme-console-bulma
 description: "Terminal-inspired Jekyll theme. Bulma-powered, retro-styled, hacker-approved."
 baseurl: ""
-url: ""
+url: "https://retromatter.github.io"
 
 # Build settings
-theme: jekyll-theme-console-bulma
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
