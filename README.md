@@ -2,7 +2,13 @@
 
 *Terminal-inspired Jekyll theme. Bulma-powered, retro-styled, hacker-approved.*
 
-![jekyll-theme-console-bulma preview](/screenshot.png)
+| Light | Dark |
+|-------|------|
+| ![Light theme](ss01-light.jpg) | ![Dark theme](ss02-dark.jpg) |
+
+| Hacker | Nord |
+|--------|------|
+| ![Hacker theme](ss03-hacker.jpg) | ![Nord theme](ss04-nord.jpg) |
 
 ## Installation
 
