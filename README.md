@@ -2,6 +2,8 @@
 
 *Terminal-inspired Jekyll theme. Bulma-powered, retro-styled, hacker-approved.*
 
+**[Demo: retromatter.github.io/jekyll-theme-console-bulma](https://retromatter.github.io/jekyll-theme-console-bulma)**
+
 | Light | Dark |
 |-------|------|
 | ![Light theme](ss01-light.jpg) | ![Dark theme](ss02-dark.jpg) |
