@@ -97,3 +97,21 @@ code {
 .content strong {
   color: inherit;
 }
+
+.content blockquote {
+  background-color: var(--background-color);
+  border-left-color: var(--base-color);
+  color: var(--text-color);
+}
+
+.content table thead th,
+.content table thead td {
+  color: var(--text-color);
+  border-color: var(--base-color);
+}
+
+.content table td,
+.content table th {
+  color: var(--text-color);
+  border-color: var(--base-color);
+}
