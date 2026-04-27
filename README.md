@@ -109,6 +109,19 @@ version instead of the gem's.
 cp $(bundle show jekyll-theme-console-bulma)/_includes/footer.html _includes/footer.html
 ```
 
+## Optional Extensions
+
+These are not included in the gem — the theme stays intentionally minimal. If you want any of them, source the file separately and drop it into your site root.
+
+| File | What it does | How to wire it up |
+|------|-------------|-------------------|
+| `_layouts/compress.html` | Minifies HTML output at build time | Set `layout: compress` as the parent of your `_layouts/default.html` |
+| `_includes/anchor_headings.html` | Adds `#` anchor links to every heading | Replace `{{ content }}` in `post.html` with `{%- include anchor_headings.html html=content -%}` |
+| `_includes/author.html` | Author bio card below post content | Add `{%- include author.html -%}` inside `_layouts/post.html` |
+| `assets/js/search.min.js` | Client-side search (Lunr.js) | Also requires a generated search index and a search UI page |
+
+> **Note on `compress.html`:** Use with caution — HTML minification can break whitespace inside `<pre>` and `<code>` blocks, which are central to this theme.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at
