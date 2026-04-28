@@ -4,3 +4,6 @@
 Gemfile.lock
 _site
 *.gem
+*.rar
+*.zip
+gem-theme-demo-notes.md

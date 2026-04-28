@@ -43,7 +43,7 @@ bundle install
 
 ### Includes
 
-- `head.html` — `<head>` block. Loads Bulma CSS, theme styles, and SEO tags.
+- `head.html` — `<head>` block. Loads Bulma CSS, theme styles, SEO tags, and favicon links.
 - `header.html` — Site title and theme switcher dropdown.
 - `footer.html` — Copyright year and attribution.
 - `disqus_comments.html` — Disqus comment box (optional).
@@ -62,6 +62,27 @@ bundle install
 - `assets/main.scss` — Compiled to `assets/main.css` by Jekyll.
 - `assets/css/bulma.min.css` — Local Bulma CSS (no CDN dependency).
 - `assets/js/theme-switcher.js` — Theme switcher with localStorage persistence.
+- `assets/favicons/` — Favicon set (SVG, ICO, PNG, apple-touch-icon, web app manifest).
+
+## Favicons
+
+A favicon set is included and automatically linked in `head.html`. No configuration needed — it works out of the box.
+
+The following files are shipped with the gem under `assets/favicons/`:
+
+| File | Purpose |
+|------|---------|
+| `favicon.svg` | Modern browsers (SVG icon) |
+| `favicon.ico` | Legacy browser fallback |
+| `favicon-96x96.png` | PNG fallback |
+| `apple-touch-icon.png` | iOS home screen icon |
+| `web-app-manifest-192x192.png` | Home screen / app icon (192px) |
+| `web-app-manifest-512x512.png` | Home screen / app icon (512px) |
+| `site.webmanifest` | Web app manifest (enables "Add to Home Screen") |
+
+To replace the favicons, override any of the files above by placing your own versions in `assets/favicons/` in your site root.
+
+> **Tip:** If you want browsers to auto-detect your favicon without relying on `<link>` tags, also place a `favicon.ico` and `favicon.svg` at your site root. This is not required — the theme links them explicitly — but some crawlers and browser toolbars look for them at the root.
 
 ## Configuration
 
