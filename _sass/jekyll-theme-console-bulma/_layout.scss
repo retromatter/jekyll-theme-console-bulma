@@ -29,3 +29,10 @@ header {
 footer {
   margin-top: auto;
 }
+
+@media screen and (max-width: 767px) {
+  footer .footer-cols {
+    display: block;
+    .column { width: 100%; }
+  }
+}

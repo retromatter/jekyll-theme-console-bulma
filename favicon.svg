@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32"><metadata><rdf:rdf xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:description><dc:creator>RealFaviconGenerator</dc:creator><dc:source>https://realfavicongenerator.net</dc:source></rdf:description></rdf:rdf></metadata><style>
+    rect { fill: #0d0d0d; }
+    text { fill: #00ff88; }
+    @media (prefers-color-scheme: light) {
+      rect { fill: #f5f5f5; }
+      text { fill: #0d0d0d; }
+    }
+  </style><rect width="32" height="32" rx="4"></rect><text x="3" y="22" font-family="monospace" font-size="16" font-weight="bold">&gt;_</text><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: invert(100%); } }
+</style></svg>
